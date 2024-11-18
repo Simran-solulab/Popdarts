@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="text-[#2B99FF] font-denim font-[400] max-w-[400px] w-full">
             Get 10% off your first order, exclusive early access to new product
             launches, and the opportunity to suggest new products. Plus, enter
-            our weekly draw to win free sets. Don't miss out—join now!
+            our weekly draw to win free sets. Don&apos;t miss out—join now!
           </div>
           <div className="flex " >
             <input className="max-w-[622px] w-full focus-none border-none outline-none bg-[#F5F8FC] placeholder-[#2B99FF]/20 font-[700] text-[32px] tracking-tight" placeholder="ENTER YOU EMAIL" /> <Button text='subscribe' className='w-[200px] uppercase text-[16px]' />
