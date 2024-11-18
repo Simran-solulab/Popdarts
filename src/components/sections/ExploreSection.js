@@ -45,7 +45,7 @@ export const ExploreSection = () => {
       sliderRef.current.swiper.slideNext();
     }
   };
-  const [hover, setHover] = useState(true);
+  const [hover, setHover] = useState(false);
   return (
     <div className="pt-[96px] bg-[#2B99FF]">
       <Layout className="justify-center">
