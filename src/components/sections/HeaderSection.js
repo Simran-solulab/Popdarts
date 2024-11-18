@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { HERO_IMAGE } from "../../../public/images";
+import { GREEN_LINE, HERO_IMAGE } from "../../../public/images";
 import Layout from "../subComponents/Layout";
 import { ErrorMessage, FastField, Field, Form, Formik } from "formik";
 import * as Yup from "yup";
@@ -33,12 +33,14 @@ const HeaderSection = () => {
     <Layout className="p-8 flex -z-10  justify-between  mb-[80px] gap-[45px] ">
       <div className="max-w-[686px] relative w-full rounded-[40px] overflow-hidden">
         <Image alt="HeroSection1" width={686} height={718} src={HERO_IMAGE} />
+        
         <div className="absolute top-[20%] text-white uppercase text-center tracking-tight font-denim font-[700] text-[96px] ">
           Let the games begin
-          <div className="justify-center  flex gap-4">
+          <div className="justify-center relative  flex gap-4">
             <button className="text-white font-denim p-4 rounded-[16px] text-[14px] uppercase bg-[#2B99FF] tracking-normal">
               shop Now
             </button>
+            <Image alt="green line" src={GREEN_LINE} className="absolute -top-[69px] right-2 " />
 
             <button className="text-white font-denim p-4 rounded-[16px] text-[14px] uppercase bg-[#2B99FF] tracking-normal">
               Explore
@@ -66,7 +68,7 @@ const HeaderSection = () => {
           </div>
         </>
       ) : (
-        <div className="max-w-[646px] bg-[#F5F8FC] py-[80px] px-[64px] w-full rounded-[20px]">
+        <div className="max-w-[646px] h-[736px] overflow-y-auto bg-[#F5F8FC] py-[80px] px-[64px] w-full rounded-[20px]">
           <div className="flex flex-col gap-[40px]">
             <div className="text-[#23FF53] uppercase font-denim font-[700] tracking-tighter">
               lets play

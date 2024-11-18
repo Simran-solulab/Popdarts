@@ -34,7 +34,7 @@ const Footer = () => {
             our weekly draw to win free sets. Don&apos;t miss out—join now!
           </div>
           <div className="flex " >
-            <input className="max-w-[622px] w-full focus-none border-none outline-none bg-[#F5F8FC] placeholder-[#2B99FF]/20 font-[700] text-[32px] tracking-tight" placeholder="ENTER YOU EMAIL" /> <Button text='subscribe' className='w-[200px] uppercase text-[16px]' />
+            <input className="max-w-[622px]  border-b-[#2B99FF] w-full focus-none border-none outline-none bg-[#F5F8FC] placeholder-[#2B99FF]/20 font-[700] text-[32px] tracking-tight" placeholder="ENTER YOU EMAIL" /> <Button text='subscribe' className='!w-[200px] uppercase text-[16px]' />
           </div>
         </div>
       </div>
